@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "clientscript",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Client Script",
+	"description": "Client side scripting and automation",
 	"authors": [
-		"Me!"
+		"mmm1245"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,16 +16,16 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.mmm1245.ExampleMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.mmm1245.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"clientscript.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "clientscript.client.mixins.json",
 			"environment": "client"
 		}
 	],

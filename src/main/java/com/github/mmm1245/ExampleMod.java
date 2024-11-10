@@ -1,4 +1,4 @@
-package com.example;
+package com.github.mmm1245;
 
 import net.fabricmc.api.ModInitializer;
 
